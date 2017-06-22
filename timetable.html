@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>杉山研のゼミ</title> 
+
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+    <!-- 独自JS・CSS読み込み -->
+	<link href="css/menu.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/menu.js"></script>
+  <link href="https://cdn.rawgit.com/kinokosou110/weblab/0698aeed/timetable.css" rel="stylesheet">
+  </head>
+  
+  <body>
+  <div id="wrap">
+    <header></header>
+    
+    <!-- メニューバー -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+  	<script type="text/javascript">menu();</script>
+	</nav>
+	
+	<!-- メインコンテンツ -->
+	<main>
+	<h1>What's ゼミ</h1>
+   <p>杉山研では前期・後期共に１~３つのゼミがあります。毎回、希望者による自主ゼミも追加されています。授業がなければ週の予定は融通が利く！？</p>
+	<section id="timetable">
+  <h2>杉山研のじかんわり</h2>
+<div id="timetables">
+<table border="1">
+  <colgroup id="mon">
+  <colgroup id="tues">
+  <colgroup id="wed">
+  <colgroup id="thurs">
+  <colgroup id="fri">
+<thead>
+  <tr><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th></tr>
+</thead>
+  <tr class="nav-tabs"><td></td><td></td><td></td><td></td><td class="nav-item"><a href="#isid" id="bisid" data-toggle="tab">ID/IS演習</a></td></tr>
+  <tr class="nav-tabs"><td></td><td class="nav-item"><a href="#sotuken"  id="bsotu" data-toggle="tab">卒研ゼミ</a></td><td class="nav-item"><a href="#ronbun" id="bron" data-toggle="tab">論文ゼミ</a></td><td class="nav-item"><a href="#houkoku"  id="bhou" data-toggle="tab">報告会</a></td><td></td></tr>
+  <tr class="nav-tabs"><td class="nav-item" colspan="5"><a href="#lunch" id="blunch" data-toggle="tab">LunchTime</a></td></tr>
+  <tr class="nav-tabs"><td></td><td></td><td></td><td class="nav-item"><a href="#camera" id="bcame" data-toggle="tab">カメラゼミ</a></td><td></td></tr>
+  <tr class="nav-tabs"><td></td><td class="nav-item"><a href="#web" id="bweb" data-toggle="tab">Web更新</a></td><td></td><td></td><td></td></tr>
+  <tr class="nav-tabs"><td></td><td class="nav-item"><a href="#rinko" id="brin" data-toggle="tab">輪講</a></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+  </section>
+  
+  <section id="zemiabout" class="tab-content">
+
+    <div id="sotuken" class="tab-pane">
+      <div class="snap">
+        <h3>卒研ゼミ</h3>
+        <img src="./img/timetable-04.jpg" class="img-responsive">
+      </div>
+      <p>4年生が対象の必須ゼミで、卒業研究の進め方指導や状況報告などを行います。自分の興味があることや授業の延長のテーマを選択し、自分の力で進める研究活動ですが先生やメンバーからアドバイスを貰い、サポートを受けながら研究に取り組みます。<br>担当する学生が多いと先生もオーバーフロー気味…？
+      <a href="" class="square_btn">過去の研究テーマ例</a></p>
+      
+    </div>
+
+    <div id="ronbun" class="tab-pane">
+      <div class="snap">
+        <h3>論文ゼミ</h3>
+        <img src="./img/timetable-00.jpg" class="img-responsive">
+      </div>
+        <p>定期的に行われる正式名称不明の自主ゼミです。自分が気になるテーマや研究に関する論文を読み、他メンバーに向けてその内容を紹介します。<br>任意参加なのでひっそりと行われていますが、研究テーマを見つけるきっかけや論文の探し方、構成の勉強をするにはうってつけ。</p>
+    </div>
+
+    <div id="isid" class="tab-pane">
+      <div class="snap">
+        <h3>ID/IS演習</h3>
+         <ul class="clearfix" style="padding-left:0">
+          <li class="snap-img"><img src="./img/timetable-07.jpg" class="img-responsive"></li>
+           <li class="snap-img"><img src="./img/timetable-08.jpg" class="img-responsive"></li>
+            <li class="snap-img"><img src="./img/timetable-09.jpg" class="img-responsive"></li>
+          <li class="snap-img"><img src="./img/timetable-10.png" class="img-responsive"></li>
+        </ul>
+      </div>
+      <p>研究室に配属された3年生が初めて取り組む演習です。テーマ、フィールドを決めるところから始めてどんな演習になるのかは毎年のメンバー次第。例年は地域のお祭りをテーマにし、フィールドワークや問題解決のためのメディア制作を行っています。</p>
+      <section class="example">
+        <h4>【過去のID/IS演習の例】</h4>
+        <ul class="clearfix">
+          <li><a href="">2016年度</a><span class="key">西浦の田楽　<i class="fa fa-times" aria-hidden="true"></i> プロモーション活動</span></li>
+          <li><a href="">2015年度</a><span class="key">浜松市の祭り　<i class="fa fa-times" aria-hidden="true"></i> データベース化</span></li>
+          <li><a href="">2014年度</a><span class="key">浜松市の祭り　<i class="fa fa-times" aria-hidden="true"></i> データベース化</span></li>
+        </ul>
+      </section>
+    </div>  
+
+    <div id="houkoku" class="tab-pane active">
+      <div class="snap">
+        <h3>報告会</h3>
+        <img src="./img/timetable-05.jpg" class="img-responsive">
+      </div>
+        <p>週に一度、ゼミメンバーが全員出席するゼミです。各界の担当者は自分の研究の状況を報告し、メンバーと意見交換をしてアドバイスをもらえる時間です。<br>また研究室内の連絡や相談もこの時間に行います。研究室の皆に会える希少な時間です。</p>  
+    </div>
+
+    <div id="camera" class="tab-pane">
+      <div class="snap">
+        <h3>カメラゼミ</h3>
+        <ul class="clearfix" style="padding-left:0">
+          <li class="snap-img"><img src="./img/timetable-02.jpg" class="img-responsive"></li>
+          <li class="snap-img"><img src="./img/timetable-01.jpg" class="img-responsive"></li>
+          <li class="snap-img"><img src="./img/timetable-03.jpg" class="img-responsive"></li>
+          <li class="snap-img"><img src="./img/timetable-04.jpg" class="img-responsive"></li>
+        </ul>
+      </div>
+      <p>杉山研に入った3年生が参加する必須ゼミの一つ。カメラの使い方と動画編集の基本を座学や実践を通して勉強します。<br>ここで学んだ成果は毎年、年末に行われる杉山研OBOG会で見せるネタ動画でお披露目します。</p>
+    </div>
+
+    <div id="web" class="tab-pane">
+      <div class="snap">
+        <h3>Web更新</h3>
+        <img src="./img/timetable-00.jpg" class="img-responsive">
+      </div>
+      <p>皆さんが今見ているこちらのサイト。4年生が中心になって研究室選択に悩む3年生に向けて、杉山研のことを知ってもらうための紹介サイトを作ります。その内容や方針は年度ごとに様々…。<br>お時間があれば過去のサイトも是非ご覧ください。</p>
+      <section class="links clearfix">
+        <h4>【過去の杉山研のサイト】</h4>
+        <div class="link"><a href="http://www.sugilab.net/2016/junior/sugilab_junior.html" class="circle">2016</a></div>
+        <div class="link"><a href="http://www.sugilab.net/2015/junior/" class="circle">2015</a></div>
+        <div class="link"><a href="http://www.sugilab.net/2014/" class="circle">2014</a></div>
+        <div class="link"><a href="http://www.sugilab.net/2013/3nen/"  class="circle">2013</a></div>
+      </section>
+    </div> 
+
+    <div id="rinko" class="tab-pane">
+      <div class="snap">
+        <h3>輪講</h3>
+        <img src="./img/timetable-06.jpg" class="img-responsive">
+      </div>
+      <p>全員参加のゼミの一つ。各自がお勧めする本の中から前期・後期に1～2冊の本を選び、ページを分担して読み込み互いに内容を発表しあうことで1冊の内容を皆で勉強しています。<br>技術の専門書やビジネステキストなどテーマは様々。3年生が入った後は英語の本でも輪講を行います。</p>
+    </div>  
+
+    <div id="lunch" class="tab-pane">
+      <h3>おひるどき</h3>
+      <p>すぎやま研のランチタイム。皆大好き「うおたか」へメンバーがおつかいに行ったり、先生とお外にランチに行くことも！？<br>お湯、レンジも完備しているので温かいお昼ご飯、食べられます。</p>
+    </div>   
+
+  </section>
+
+  <nav id="subnav">
+    <div class="ancor nav-tabs">
+      <a href="#houkoku" class="nav-itme" data-toggle="tab">報告会</a>
+      <a href="#rinko" class="nav-itme" data-toggle="tab">輪講</a>
+      <a href="#camera" class="nav-itme" data-toggle="tab">カメラゼミ</a>
+      <a href="#web" class="nav-itme" data-toggle="tab">web更新</a>
+      <a href="#isid" class="nav-itme" data-toggle="tab">IDIS演習</a>
+      <a href="#sotuken" class="nav-itme" data-toggle="tab">卒研ゼミ</a>
+      <a href="#ronbun" class="nav-itme" data-toggle="tab"> 論文ゼミ</a>
+    </div>
+  </nav>
+	</main>
+	</div>
+	
+	<!-- フッター -->
+	<footer>
+	<div id="footer">
+	<script type="text/javascript">footer();</script>
+	</div>
+	</footer>
+  </body>
+</html>
