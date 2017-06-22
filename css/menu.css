@@ -1,0 +1,59 @@
+/*メニューバー */
+
+.navbar{
+	background: #D1F1CC;
+	}
+
+.navbar a {
+	margin: 1px;
+	border: 1px solid #D5F5D0;
+	border-radius: 7px;
+	background: #D1F1CC;
+	color: #434D41;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	}
+
+.navbar-default .navbar-nav > li > a:hover {
+	border: 1px solid #F1FFD9;
+	background-color: #FFFFFF;
+	}
+
+/*ロゴ画像仕様*/
+.navbar-brand .logo {
+	height:270%;	
+	border:1px solid #D5F5D0;
+	margin-top: -10%;
+	}
+
+/*フッター */
+
+html,body {
+	height: 100%;
+	}
+
+/* フッターを下部へ押しやるための、コンテンツのラッパー */
+#wrap {
+	min-height: 100%;
+	height: auto;
+  	/* フッターの高さ分だけ、ネガティブインデントを指定 */
+  	margin: 0 auto -100px;
+  	/* フッターの高さ分だけ、パディングを指定 */
+  	padding: 0 0 100px;
+	}
+
+/* ここでフッターの高さを指定 */
+#footer {
+	height: 120px;
+	text-align:center;
+	font-size: 13px;
+	background:#E8F8E5;
+	color: #434D41;
+	padding:10px;
+	}
+
+/*コンテンツ*/
+main{
+	padding-top:60px;
+	}
